@@ -31,7 +31,7 @@ Entrer dans un container
 ```bash
 docker exec -it <container name> /bin/sh
 ou
-docker exec -it crm-php /bin/zsh
+docker exec -it <container name> /bin/zsh
 ```
 Installer symfony dans le container php
 ```bash
